@@ -1,0 +1,43 @@
+/* open-sans-condensed-300 - latin */
+@font-face {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 300;
+    font-display: auto;
+    src: url('https://hiltonmuccillo.com/css/fonts/open-sans-condensed-v15-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('https://hiltonmuccillo.com/css/fonts/open-sans-condensed-v15-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('https://hiltonmuccillo.com/css/fonts/open-sans-condensed-v15-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('https://hiltonmuccillo.com/css/fonts/open-sans-condensed-v15-latin-300.woff') format('woff'), /* Modern Browsers */
+         url('https://hiltonmuccillo.com/css/fonts/open-sans-condensed-v15-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('https://hiltonmuccillo.com/css/fonts/open-sans-condensed-v15-latin-300.svg#OpenSansCondensed') format('svg'); /* Legacy iOS */
+  }
+
+  /* Font Awesome */
+@font-face {
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;
+    src: url('https://hiltonmuccillo.com/css/fonts/fontawesome/webfonts/fa-brands-400.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('https://hiltonmuccillo.com/css/fonts/fontawesome/webfonts/fa-brands-400.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('https://hiltonmuccillo.com/css/fonts/fontawesome/webfonts/fa-brands-400.woff2') format('woff2'), /* Super Modern Browsers */
+        url('https://hiltonmuccillo.com/css/fonts/fontawesome/webfonts/fa-brands-400.woff') format('woff'), /* Modern Browsers */
+        url('https://hiltonmuccillo.com/css/fonts/fontawesome/webfonts/fa-brands-400.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('https://hiltonmuccillo.com/css/fonts/fontawesome/webfonts/fa-brands-400.svg') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 400;
+    font-display: auto;          
+    src: url('https://hiltonmuccillo.com/css/fonts/fontawesome/webfonts/fa-regular-400.eot'); /* IE9 Compat Modes */
+    src: local(''),
+        url('https://hiltonmuccillo.com/css/fonts/fontawesome/webfonts/fa-regular-400.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('https://hiltonmuccillo.com/css/fonts/fontawesome/webfonts/fa-regular-400.woff2') format('woff2'), /* Super Modern Browsers */
+        url('https://hiltonmuccillo.com/css/fonts/fontawesome/webfonts/fa-regular-400.woff') format('woff'), /* Modern Browsers */
+        url('https://hiltonmuccillo.com/css/fonts/fontawesome/webfonts/fa-regular-400.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('https://hiltonmuccillo.com/css/fonts/fontawesome/webfonts/fa-regular-400.svg') format('svg'); /* Legacy iOS */
+}

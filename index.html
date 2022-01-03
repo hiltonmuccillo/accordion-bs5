@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion Bootstrap 5 with close button</title>
+    <!-- Fonts -->
+    <link rel="preload" href="fonts/open-sans-condensed-v15-latin-300.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/fonts.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="fonts/fontawesome/css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div id="mySidebar" class="sidebar">
+            <a class="closebtn collapsed" id="closeNav" type="button" aria-expanded="false"><i class="fa fa-times-circle"></i> close</a>
+            <div class="accordion text-left" id="accordionExample">
+                <div class="accordion-item">
+                    <div class="accordion-header" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                Professional experience
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body text-left">
+                            <p>
+                                <span class="stronger">Loren Ipsum</span> - Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                                jan/2020 - dez/2020
+                            </p>
+                            <p>
+                                <span class="stronger">Loren Ipsum</span> - Proin venenatis neque luctus pretium pretium.<br>
+                                jan/2020 - dez/2020
+                            </p>
+                            <p>
+                                <span class="stronger">Loren Ipsum</span> - Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                                jan/2020 - dez/2020
+                            </p>
+                            <p>
+                                <span class="stronger">Loren Ipsum</span> - Proin venenatis neque luctus pretium pretium.<br>
+                                jan/2020 - dez/2020
+                            </p>
+                            <p>
+                                <span class="stronger">Loren Ipsum</span> - Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                                jan/2020 - dez/2020
+                            </p>
+                            <p>
+                                <span class="stronger">Loren Ipsum</span> - Proin venenatis neque luctus pretium pretium.<br>
+                                jan/2020 - dez/2020
+                            </p>
+                            <p>
+                                <span class="stronger">Loren Ipsum</span> - Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                                jan/2020 - dez/2020
+                            </p>
+                            <p>
+                                <span class="stronger">Loren Ipsum</span> - Proin venenatis neque luctus pretium pretium.<br>
+                                jan/2020 - dez/2020
+                            </p>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link accordion-button collapsed custom-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                technical knowledge
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p><span class="stronger">Sed posuere sem quis orci fringilla</span><br>
+                                Donec convallis nulla feugiat sem sollicitudin, vitae posuere lacus tempus. Nam hendrerit ante ac ipsum fermentum semper.
+                            </p>
+                            <p><span class="stronger">Sed posuere sem quis orci.</span><br>
+                                Etiam sagittis nulla eu erat posuere, ut tempor velit pellentesque. Sed non enim ac ipsum eleifend elementum id in ligula.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link accordion-button collapsed custom-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Completed courses
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p><span class="stronger">Facebook</span><br>Aliquam vulputate leo id ipsum mollis, id vehicula elit volutpat.</p>
+                            <p><span class="stronger">Google</span><br>Sed posuere sem quis orci fringilla fringilla.</p>
+                            <p><span class="stronger">Facebook</span><br>Aliquam vulputate leo id ipsum mollis, id vehicula elit volutpat.</p>                            
+                            <p><span class="stronger">Google</span><br>Sed posuere sem quis orci fringilla fringilla.</p>
+                            <p><span class="stronger">Facebook</span><br>Aliquam vulputate leo id ipsum mollis, id vehicula elit volutpat.</p>
+                        </div>
+                    </div>
+                </div>                    
+                
+                <div class="accordion-item">
+                    <div class="accordion-header" id="headingFour">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link accordion-button collapsed custom-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Qualifications
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p><span class="stronger">Proin venenatis</span><br>
+                                Vivamus dictum leo nec libero commodo ultricies.<br>
+                                Donec convallis nulla feugiat sem sollicitudin, vitae posuere lacus tempus.
+                            </p>
+                            <p><span class="stronger">Proin venenatis</span><br>
+                                Integer at risus at quam lobortis porta.<br>
+                                Maecenas ultricies quam et lectus sodales feugiat.
+                            </p>
+                            <p><span class="stronger">Proin venenatis</span><br>
+                                Vivamus dictum leo nec libero commodo ultricies.<br>
+                                Donec convallis nulla feugiat sem sollicitudin, vitae posuere lacus tempus.                                    
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header" id="headingFive">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link accordion-button collapsed custom-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Education
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p><span class="stronger">Harvard</span><br>Nam hendrerit ante ac ipsum fermentum semper.</p>                      
+                        </div>
+                    </div>
+                </div>                   
+            </div>
+        </div>
+        <div id="main" class="main">
+            <button class="openbtn" id="openNav">☰ open</button>
+            <!-- Bg -->
+            <div class="bg"></div>
+        </div>
+        <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="js/custom.js"></script>
+    </div>
+</body>
+</html>
