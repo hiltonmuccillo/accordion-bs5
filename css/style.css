@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Open Sans Condensed Light';
+  src: url('../fonts/open-sans-condensed-v15-latin-300.woff2');
+}
+
 .container-fluid {
     margin: 0;
     padding: 0;
@@ -5,7 +10,7 @@
 }
 
 html, body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans Condensed Light', sans-serif;
     background: #000;
     height: 100%;
     overflow: hidden;
