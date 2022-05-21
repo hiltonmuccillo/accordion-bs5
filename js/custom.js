@@ -8,6 +8,27 @@
     })
 })();
 
+// Open Sidebar Mobile 100% and Ipad width 50% JS        
+(function () {
+    if (window.innerWidth <= 490) {
+        document.querySelector("#openNav").addEventListener('click', function() {
+            document.querySelector("#mySidebar").style.cssText = "width: 100%";
+            document.querySelector("#main").style.cssText = "margin-left: 0";
+            document.querySelector(".openbtn").style.cssText = "opacity: 0";                
+            document.querySelector("#closeNav").style.cssText = "opacity: 1; transition: 2s";               
+            document.querySelector(".footer").style.cssText = "opacity: 0; transition: 2s";                                 
+        })
+    } else if (window.innerWidth <= 1024) {
+        document.querySelector("#openNav").addEventListener('click', function() {
+            document.querySelector("#mySidebar").style.cssText = "width: 50%";
+            document.querySelector("#main").style.cssText = "margin-left: 0";
+            document.querySelector(".openbtn").style.cssText = "opacity: 0";                
+            document.querySelector("#closeNav").style.cssText = "opacity: 1; transition: 2s";               
+            document.querySelector(".footer").style.cssText = "opacity: 0; transition: 2s";                                   
+        })
+    }
+})();
+
 // Close Sidebar
 function recolheBarraLateral () {
     document.querySelector("#mySidebar").style.cssText = "width: 0";
